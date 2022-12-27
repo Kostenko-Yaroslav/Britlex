@@ -160,3 +160,233 @@ span {
     margin-top: 235px;
     margin-bottom: auto;
 }
+
+/* Skills
+=============*/
+
+.skills__title {
+    margin-bottom: 96px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.item1 {
+    grid-area: item1;
+    height: 909px;
+    width: 435px;
+    border-radius: 10px;
+}
+
+.item2 {
+    grid-area: item2;
+    width: 532px;
+    height: 565px;
+    border-radius: 10px;
+}
+
+.item3 {
+    grid-area: item3;
+    width: 532px;
+    height: 565px;
+    border-radius: 10px;
+}
+
+.item4 {
+    grid-area: item4;
+    height: 325px;
+    width: 1085px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-areas:
+        'item1 item2 item3'
+        'item1 item4 item4';
+    gap: 20px;
+}
+
+.grid-container>div {
+    background-color: #F5F5F5;
+
+}
+
+.btn__speaking {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #263238;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 17px 50px;
+    transition: all 0.5s ease;
+    width: 230px;
+    height: 60px;
+}
+
+.btn__speaking:hover {
+    padding: 17px 50px;
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    background: #fff;
+    color: #000;
+}
+
+.speak__img {
+    margin-top: 30px;
+}
+
+.item1 {
+    text-align: center;
+}
+
+.speak {
+    color: #263238;
+}
+
+.speak__text {
+    color: #8F95A5;
+    font-size: 18px;
+    margin: 30px 10px 30px 10px;
+}
+
+.speak__text2 {
+    color: #8F95A5;
+    font-size: 18px;
+    margin: 30px 10px 30px 10px;
+}
+
+.writing__img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.writing__title {
+    color: #263238;
+    text-align: center;
+}
+
+.writing__txt {
+    font-size: 16px;
+    width: 345px;
+    height: 72px;
+    color: #8F95A5;
+    text-align: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+
+.btn__writing {
+    margin: auto;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #263238;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 17px 50px;
+    transition: all 0.5s ease;
+    width: 230px;
+    height: 60px;
+}
+
+.btn__writing:hover {
+    padding: 17px 50px;
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #263238;
+    border-radius: 15px;
+    background: #fff;
+    color: #000;
+}
+
+.reading__img {
+    margin-top: 15px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.reading__title {
+    text-align: center;
+    color: #263238;
+}
+
+.reading__txt {
+    text-align: center;
+    font-size: 16px;
+    color: #8F95A5;
+    width: 354px;
+    height: 72px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.listening__img {
+    margin-top: 30px;
+    margin-left: auto;
+    display: flex;
+    height: 255px;
+    width: 382px;
+}
+
+.listening__title {
+    margin: 45px 0px 0px 50px;
+    color: #263238;
+}
+
+.listening__txt {
+    font-size: 16px;
+    color: #8F95A5;
+    width: 328px;
+    height: 72px;
+    margin: 24px 0px 39px 50px;
+}
+
+.btn__listening {
+    margin: -25px 1px 1px 49px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #263238;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 17px 50px;
+    transition: all 0.5s ease;
+    width: 230px;
+    height: 60px;
+}
+
+.btn__listening:hover {
+    padding: 17px 50px;
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    background: #fff;
+    color: #000;
+}
