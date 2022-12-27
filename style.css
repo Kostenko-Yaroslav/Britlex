@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/* Container
+=============*/
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+/* Header
+=============*/
+
+.header {
+    width: 100%;
+    height: 785px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.nav__logo {
+    margin-right: 250px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+span {
+    color: #939393;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #263238;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.btn {
+    color: #263238;
+    margin-left: auto;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 57px;
+    border-radius: 5px;
+    border: 2px solid #263238;
+    width: 220px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.offer {
+    margin-top: 115px;
+}
+
+.offer__title {
+    width: 386px;
+    height: 240px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.offer__text {
+    margin-bottom: 61px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    width: 557px;
+    height: 108px;
+}
+
+
+.offer__btn {
+    font-weight: 400;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #263238;
+    display: block;
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+    padding: 32px 115px;
+    width: 438px;
+    transition: all 0.5s ease;
+}
+
+.offer__btn:hover {
+    padding: 32px 115px;
+    width: 438px;
+    text-align: center;
+    border: 2px solid #263238;
+    border-radius: 15px;
+    background: #fff;
+    color: #000;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture {
+    width: 661px;
+    height: 661px;
+}
+
+.idea {
+    width: 85.24px;
+    height: 85.24px;
+
+    position: relative;
+
+    right: 160px;
+
+    margin-top: 235px;
+    margin-bottom: auto;
+}
